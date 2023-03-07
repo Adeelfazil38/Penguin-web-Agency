@@ -3,7 +3,8 @@ $smBlack:#252525;
 $cream: #f2d8b9;
 $blue: #f2d8b9;
 $white: #ffffff;
-$colorPrimary: #00d188;
+$colorPrimary:  #6200d1d8
+;
 
 @mixin main-font {
     font-family: "Poppins", sans-serif;
@@ -168,7 +169,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba($color: #2cc38e, $alpha: 0.95);
+    background-color:#5f20cc
     overflow-x: hidden;
     transition: 0.5s;
 
@@ -874,7 +875,7 @@ a:focus {
             }
 
             &:hover {
-                background-color: #20cc8e;
+                background-color: #5f20cc;
 
                 &.box-1 {
                     background-image: url(../images/location-white.png);
